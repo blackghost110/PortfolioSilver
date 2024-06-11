@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SilverMouse Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "19TV3wETCAxV2Y7WO",
+      });
+    })();
+  </script>
+  <script src="js/app.js"> </script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">Movsar <span>Mouslimov</span></a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, It's <span>Movsar</span></h1>
+      <h3 class="text-animation">I'm a <span></span></h3>
+      <p>I'm a dedicated IT professional with a strong interest in technology.
+        I'm quick to adapt to new projects and always eager to learn.
+        I pay great attention to detail and aim for high-quality results.
+        Motivated and driven, I have a successful track record in developing  IT projects.
+        My problem-solving skills and enthusiasm for technology make me a great fit for everything.
+      </p>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/movsar-mouslimov/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/blackghost110" target="_blank"><i class='bx bxl-github'></i></a>
+        <!--   <a href="#"><i class='bx bxl-instagram-alt'></i></a> -->
+      </div>
+
+      <div class="btn-group">
+        <a href="#contact" class="btn">Hire</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <img src="img/silver%20scythe.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <h2 class="heading">Education</h2>
+
+    <div class="timeline-items">
+
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <h3>Ipeps Verviers Technologique</h3>
+            <p>This was the culmination of my studies, where I learned to develop concrete projects from scratch.
+              I mastered C# and gained extensive experience with various TypeScript frameworks.</p>
+          </div>
+
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+          <div class="timeline-date">2021</div>
+          <div class="timeline-content">
+            <h3>Helmo Sainte-Marie</h3>
+            <p>Managed my first IT projects,
+              working with Java and creating websites using HTML/CSS, with a brief introduction to PHP.
+              I also learned to analyze projects thoroughly before starting to code. </p>
+          </div>
+
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+          <div class="timeline-date">2019</div>
+          <div class="timeline-content">
+            <h3>Athénée Royal Thil Lorrain</h3>
+            <p>I excelled in English, achieving top results.
+              An introductory computer science course introduced me to computers and sparked my interest in technology. </p>
+          </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-box">
+        <div class="project-info">
+          <h4>School Management App</h4>
+          <p>I developed the backend of a school management application using C# with MVC architecture and PostgreSQL.
+            I designed the interface with WPF and MVVM for an interactive user experience.
+            The application allows secretaries to efficiently manage student enrollment and class schedules. </p>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-info">
+          <h4>Social Network Website</h4>
+          <p>I created a complete REST API using Node.js and NestJS with TypeORM.
+            I implemented security systems for authentication using JWT.
+            The frontend was developed in TypeScript using Angular framework.
+            This website allows users to connect and utilize basic social network features,
+            such as interacting with posts and managing their profiles. </p>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-info">
+          <h4>Airline Company App</h4>
+          <p>I analyzed and designed an application for an airline with 4,500 employees.
+            Using UML diagrams, I created a detailed resource management blueprint.
+            Precise and effective communication with the client was crucial to the project's success.
+            A project management framework was set up in Jira to streamline processes and improve tracking. </p>
+        </div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-info">
+          <h4>Portfolio Website</h4>
+          <p>I created a portfolio website using HTML and CSS, enhanced with JavaScript features.
+            This site serves as a comprehensive compilation of my academic and professional materials,
+            showcasing my skills, qualifications, education and experiences. </p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="">
+
+      <div class="input-group">
+
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" name="name">
+          <input type="email" placeholder="Email" name="email">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" name="number">
+          <input type="text" placeholder="Subject" name="subject">
+        </div>
+
+      </div>
+
+      <div class="input-group-2">
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message ..."></textarea>
+        <input type="submit" onclick="sendMail()" value="Send Message" class="btn">
+      </div>
+
+    </form>
+
+  </section>
+
+  <footer class="footer">
+
+    <div class="social">
+      <a href="https://www.linkedin.com/in/movsar-mouslimov/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/blackghost110" target="_blank"><i class='bx bxl-github'></i></a>
+      <!--   <a href="#"><i class='bx bxl-instagram-alt'></i></a> -->
+
+    </div>
+
+    <ul class="list">
+
+      <li>
+        <a href="#">FAQ</a>
+      </li>
+
+      <li>
+        <a href="#">Projects</a>
+      </li>
+
+      <li>
+        <a href="#">About me</a>
+      </li>
+
+      <li>
+        <a href="#">Contact</a>
+      </li>
+
+    </ul>
+    <p class="copyright">
+      © Movsar Mouslimov | All Rights Reserved
+    </p>
+
+  </footer>
+
+
+
+
+</body>
+</html>
